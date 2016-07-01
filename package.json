@@ -1,0 +1,21 @@
+{
+  "name": "react-empty-boilerplate",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-node5": "*",
+    "babel-preset-react": "*",
+    "eslint": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-react": "*",
+    "webpack": "*"
+  },
+  "scripts": {
+    "build:bundle":"./node_modules/.bin/webpack"
+  }
+}
